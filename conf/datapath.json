@@ -1,0 +1,30 @@
+{
+  "data": {
+    "train_data": "./data/ctb50/train.ctb50.charconll_new.r",
+    "dev_data": "./data/ctb50/dev.ctb50.charconll_new.r",
+    "test_data": "./data/ctb50/test.ctb50.charconll_new.r"
+  },
+  "BC": {
+    "train_data": "./data/BC/BC-train.conll",
+    "dev_data": "./data/BC/hlt-cdt-dev.conll",
+    "test_data": "./data/BC/hlt-cdt-test.conll"
+  },
+  "PC": {
+    "train_data": "./data/PC/comment-train-new.conll",
+    "dev_data": "./data/PC/conmment-dev.conll",
+    "test_data": "./data/PC/conmment-test.conll"
+  },
+  "PB": {
+    "train_data": "./data/PB/su-train-from-content.conll",
+    "dev_data": "./data/PB/su-dev-from-content.conll",
+    "test_data": "./data/PB/su-test-from-content.conll"
+  },
+  "ZX": {
+    "train_data": "./data/ZX/su-train-from-zhuxian.conll",
+    "dev_data": "./data/ZX/su-dev-from-zhuxian.conll",
+    "test_data": "./data/ZX/su-test-from-zhuxian.conll"
+  },
+  "pretrained": {
+    "bert_model": "./bert/base"
+  }
+}
